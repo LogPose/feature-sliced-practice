@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Gilroy Light';
+  src: local('Gilroy Light'), url(./shared/assets/fonts/gilroy/Light/Gilroy-Light.eot);
+  src: local('Gilroy Light'),
+    url(./shared/assets/fonts/gilroy/Light/Gilroy-Light.eot?#iefix)
+      format('embedded-opentype'),
+    url(./shared/assets/fonts/gilroy/Light/Gilroy-Light.woff) format('woff'),
+    url(./shared/assets/fonts/gilroy/Light/Gilroy-Light.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy Semibold';
+  src: local('Gilroy Semibold'),
+    url(./shared/assets/fonts/gilroy/Semibold/Gilroy-SemiBold.eot);
+  src: local('Gilroy Semibold'),
+    url(./shared/assets/fonts/gilroy/Semibold/Gilroy-SemiBold.eot?#iefix)
+      format('embedded-opentype'),
+    url(./shared/assets/fonts/gilroy/Semibold/Gilroy-SemiBold.woff) format('woff'),
+    url(./shared/assets/fonts/gilroy/Semibold/Gilroy-SemiBold.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy Regular';
+  src: local('Arsenal Bold'),
+    url(./shared/assets/fonts/gilroy/Regular/Gilroy-Regular.eot);
+  src: local('Arsenal Bold'),
+    url(./shared/assets/fonts/gilroy/Regular/Gilroy-Regular.eot?#iefix)
+      format('embedded-opentype'),
+    url(./shared/assets/fonts/gilroy/Regular/Gilroy-Regular.woff) format('woff'),
+    url(./shared/assets/fonts/gilroy/Regular/Gilroy-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Arsenal Bold';
+  src: local('Arsenal Bold'),
+    url(./shared/assets/fonts/arsenal/Arsenal-Bold.eot);
+  src: local('Arsenal Bold'),
+    url(./shared/assets/fonts/arsenal/Arsenal-Bold.eot?#iefix)
+      format('embedded-opentype'),
+    url(./shared/assets/fonts/arsenal/Arsenal-bold.woff) format('woff'),
+    url(./shared/assets/fonts/arsenal/Arsenal-bold.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
